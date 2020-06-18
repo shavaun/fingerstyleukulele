@@ -1,3 +1,4 @@
+{% if page.layout != "page" %}
 <style>
   .feedback--answer {
     display: inline-block;
@@ -15,3 +16,4 @@
 <p class="feedback--response">
   Suggestions or questions? Please <a href="{{ site.repo }}/issues/new?labels={{ page.title }}">share your thoughts</a> so we can improve this exercise.
 </p>
+{% endif %}
