@@ -1,23 +1,11 @@
-- title: Documentation
-  url: docs
+- title: Exercises
+  url: exercises
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
-      children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
-      children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
-        - title: Tags Page
-          url: "tags"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+    - title: "Exercise 1"
+      url: "exercises/1"
+    - title: "Exercise 2"
+      url: "exercises/2"
+    - title: "Exercise 3"
+      url: "exercises/3"
+    - title: "Exercise 4"
+      url: "exercises/4"
