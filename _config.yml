@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Docsy Jekyll
+title: Ukulele Fingerstyle Exercises
 email: practice.more.ukulele@gmail.com
 author: Shavaun Tesareski
 description: > # this means to ignore newlines until "baseurl:"
-  A progression of ukulele fingerstyle exercises, with community 
-  contributions designed to support ukulele fingerstyle skills.
+  A progression of ukulele fingerstyle exercises designed 
+  to support ukulele fingerstyle skills.
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
 baseurl: "/fingerstyleukulele" # the subpath of your site, e.g. /blog
@@ -28,7 +28,7 @@ baseurl: "/fingerstyleukulele" # the subpath of your site, e.g. /blog
 url: "https://shavaun.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://shavaun.github.io/fingerstyleukulele"
+repo: "https://shavaun.github.com/fingerstyleukulele"
 github_user: "shavaun"
 github_repo: "fingerstyleukulele"
 
