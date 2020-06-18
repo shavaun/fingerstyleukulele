@@ -28,7 +28,7 @@ baseurl: "/fingerstyleukulele" # the subpath of your site, e.g. /blog
 url: "https://shavaun.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://shavaun.github.com/fingerstyleukulele"
+repo: "https://github.com/shavaun/fingerstyleukulele"
 github_user: "shavaun"
 github_repo: "fingerstyleukulele"
 
