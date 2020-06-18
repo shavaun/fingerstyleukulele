@@ -6,10 +6,20 @@
   </form>  
   <nav class="collapse td-sidebar-nav pt-2 pl-4" id="td-section-nav">
     <ul class="td-sidebar-nav__section pr-md-3">
-      {% for post in site.posts %}
       <li class="td-sidebar-nav__section-title">
-        <a  href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">{{ post.title }}</a></li>
-      {% endfor %}
+        <a class="align-left pl-0 pr-2 active td-sidebar-link td-sidebar-link__section">Exercises</a>
+      </li>
+      <ul>
+        <li id="documentation">
+          <ul class="td-sidebar-nav__section pr-md-3">
+            {% for post in site.posts %}
+            <li class="td-sidebar-nav__section-title">
+              <a  href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="align-left pl-0 pr-2 td-sidebar-link td-sidebar-link__section">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
     </ul>
   </nav>
 </div>
