@@ -42,7 +42,7 @@ feedback: true
 # google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
-# logo: "assets/img/logo/SRCC-square-red.png"
+logo: "assets/img/logo.png"
 logo_pixels: 34
 color: "#30638e"
 # color: "#8c1515" # primary color for header, buttons
@@ -68,6 +68,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path
+  exercises:
+    output: true
+    permalink: /:collection/:path
 
 # Defaults
 defaults:
@@ -76,6 +79,11 @@ defaults:
       type: "docs"
     values:
       layout: page
+  - scope:
+      path: "_exercises"
+      type: "exercises"
+    values:
+      layout: post
   -
     scope:
       path: ""
