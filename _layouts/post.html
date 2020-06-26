@@ -3,6 +3,27 @@ layout: page
 ---
 
 <h1 style="margin-bottom:0px">{{ page.title }}</h1>
-{% if page.badges %}{% for badge in page.badges %}<span class="badge badge-{{ badge.type }}">{{ badge.tag }}</span>{% endfor %}{% endif %}
-<span class="post-date" style="font-style: italic;">{{ page.date | date: "%B %d, %Y" }}</span>
-{{ content }}
+
+<div id="directions">
+    <p>{% include alert.html type="info" title="Overview" content=content %}</p>
+</div>
+
+{% if page.notes %}
+<div id="notes" style="font-style:italic; text-align:right; display: grid; padding-right:2em;">
+{% for note in page.notes %}<span style="white-space: pre;"><img src="../assets/scores/{{note[0]}}.svg" style="margin-right: 0.5em; margin-left: 0.25em;" width="8em" height="12em"> is a <b>{{ note[1][0] }}</b> and lasts <b>{{ note[1][1] }}</b></span>{% endfor %}
+</div>
+{% endif %}
+{% if page.score %}
+    <img src="../assets/scores/{{ page.score }}"/>
+{% endif %}
+
+
+<h2>Practice directions</h2>
+<ol>
+    <li>Review the exercise, including the note durations.</li>
+    <li>Play through the exercise at {{ page.start_tempo }} BPM. Replay it until you are able to play it smoothly and comfortably.</li>
+    <li>Repeat step 2, increasing the tempo by 10 BPM each time until you reach {{ page.peak_tempo }} BPM.</li>
+</ol>
+<br>
+
+
