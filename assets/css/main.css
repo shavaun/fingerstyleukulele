@@ -18292,8 +18292,8 @@ html body .md-typeset .headerlink {
 
 .alert-info {
     border-style: solid;
-    border-color: #479de7;
-    border-width: 0 0 0 4px
+    background-color: #e3f0fc;
+    border-width: 0 0 0 4px;
 }
 
 .alert-info .alert-heading {

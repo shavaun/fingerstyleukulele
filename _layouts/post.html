@@ -2,11 +2,20 @@
 layout: page
 ---
 
-<h1 style="margin-bottom:0px">{{ page.title }}</h1>
+<h1 style="margin-bottom:0px">{{ page.long_title }}</h1>
 
 <div id="directions">
-    <p>{% include alert.html type="info" title="Overview" content=content %}</p>
+    <p>{% if page.type == "intro" %}{{ page.content }}{% else %}{% include alert.html type="info" title="Explanation" content=content %}{% endif %}</p>
 </div>
+
+
+{% if page.start_tempo %}
+<div id="notes" style="float: left;">
+<span style="white-space: pre; font-style: italic; margin-left:5em;">Start at {{ page.start_tempo }} BPM</span>
+</div>
+{% endif %}
+
+
 
 {% if page.notes %}
 <div id="notes" style="font-style:italic; text-align:right; display: grid; padding-right:2em;">
