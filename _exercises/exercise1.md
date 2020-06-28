@@ -1,5 +1,6 @@
 ---
 title: "#1"
+long_title: "#1 - C Major Scale"
 author: shavaun
 start_tempo: 60
 peak_tempo: 100
