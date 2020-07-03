@@ -4,18 +4,6 @@ layout: page
 
 <h1 style="margin-bottom:0px">{{ page.long_title }}</h1>
 
-<div id="directions">
-    <p>{% if page.type == "intro" %}{{ page.content }}{% else %}{% include alert.html type="info" title="Explanation" content=content %}{% endif %}</p>
-</div>
-
-
-{% if page.start_tempo %}
-<div id="notes" style="float: left;">
-<span style="white-space: pre; font-style: italic; margin-left:5em;">Start at {{ page.start_tempo }} BPM</span>
-</div>
-{% endif %}
-
-
 
 {% if page.notes %}
 <div id="notes" style="font-style:italic; text-align:right; display: grid; padding-right:2em;">
@@ -27,12 +15,12 @@ layout: page
 {% endif %}
 
 
-<h2>Practice directions</h2>
-<ol>
-    <li>Review the exercise, including the note durations.</li>
-    <li>Play through the exercise at {{ page.start_tempo }} BPM. Replay it until you are able to play it smoothly and comfortably.</li>
-    <li>Repeat step 2, increasing the tempo by 10 BPM each time until you reach {{ page.peak_tempo }} BPM.</li>
-</ol>
-<br>
-
-
+<div id="directions">
+    <p>{% if page.type == "intro" %}{{ page.content }}{% else %}{% include alert.html type="info" title="Explanation" content=content %}{% endif %}</p>
+    <h2>Practice directions</h2>
+    <ol>
+        <li>Review the exercise, including the note durations.</li>
+        <li>Play through the exercise at {{ page.start_tempo }} BPM. Replay it until you are able to play it smoothly and comfortably.</li>
+        <li>Repeat step 2, increasing the tempo by 10 BPM each time until you reach {{ page.peak_tempo }} BPM.</li>
+    </ol>
+</div>

@@ -1,19 +1,15 @@
 ---
-title:  "#3"
-long_title: "#3 - Arpeggios"
+title: "#3"
+long_title: "#3 - C Major Scale"
 author: shavaun
 start_tempo: 60
 peak_tempo: 100
 score: exercise3.svg
-order: 4
+order: 3
 notes: {"quarter":["quarter note","1 beat"], "half": ["half note", "2 beats"]}
 key: C
-difficulty: 1.1
+difficulty: 1
 ---
 
-A *chord* is a collection of notes (usually 3 notes) that are played at the same time or consecutively. When you play the notes of a chord consecutively, it's called an *arpeggio*.<br><br>
+A *key* is a collection of notes where each note is included based on a predefined pattern. A *scale* is an arrangement of notes when you put them in ascending or descending order.<br><br>The lowest note in a key is called the *tonic* or *root* note. In a *Major* key the notes are selected based on this formula: Root, whole step, whole step, half step, whole step, whole step, whole step, and half step back to the root. Remember, a half step takes you to the adjacent note, and a whole step skips over the adjacent note. Therefore, the key of C contains the notes C, (skip C#), D, (skip D#), E, F, (skip F#), G, (skip G#), A, (skip A#), and B. This exercise ascends through the C major scale and then descends back to C.
 
-Most music is written with chords in mind, regardless of whether your right hand is finger picking or strumming. In this exercise, we use two chords:<br>
-<ul><li>C major - Start with your left hand holding the A string on the 3rd fret.</li>
-    <li>G major - At the 5th measure, move your left hand fingers to hold the A string on the 2nd fret, the E string on the 3rd fret, and the C string on the 2nd fret.</li>
-</ul>

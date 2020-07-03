@@ -1,15 +1,13 @@
 ---
 title: "#1"
-long_title: "#1 - C Major Scale"
+long_title: "#1 - Notes and Frets"
 author: shavaun
 start_tempo: 60
 peak_tempo: 100
 score: exercise1.svg
-order: 2
-notes: {"quarter":["quarter note","1 beat"], "half": ["half note", "2 beats"]}
-key: C
+order: 1
+notes: {"quarter":["quarter note","1 beat"], "whole":["whole note", "4 beats"]}
 difficulty: 1
 ---
 
-A *key* is a collection of notes where each note is included based on a predefined pattern. A *scale* is an arrangement of notes when you put them in ascending or descending order.<br><br>The C major scale is made of the notes from the key of C which are C, D, E, F, G, A, and B. This exercise ascends through the C major scale and then descends back to C.
-
+There are 12 total notes: A, A#/Bb, B, C, C#/Db, D, D#/Eb, E, F, F#/Gb, G, and G#/Ab. When you move from one note to the next adjacent note in that series, it's called a *half step*. If you skip over the adjacent note onto the next one, it's called a *whole step*. Each fret on your ukulele is a half step in pitch from the previous fret. If you play the C string without holding a fret, that is a C note. If you play the C string on the 1st fret, that is a C# or Db note. If you move up a fret on the C string to the 2nd fret, that is a D note.

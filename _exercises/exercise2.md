@@ -1,14 +1,21 @@
 ---
 title:  "#2"
-long_title: "#2 - Single String C Major Scale"
+long_title: "#2 - Basic Rhythm"
 author: shavaun
-start_tempo: 60
+start_tempo: 40
 peak_tempo: 100
 score: exercise2.svg
-order: 3
-notes: {"quarter":["quarter note","1 beat"], "half": ["half note", "2 beats"]}
+order: 2
+notes: {"quarter":["quarter note","1 beat"], "half": ["half note", "2 beats"], "whole":["whole note", "4 beats"]}
 key: C
-difficulty: 1.1
+difficulty: 1
 ---
 
-You may have noticed that we skipped frets in the previous exercise. That's because on the ukulele each fret is a *half step* increase in pitch, and the C major scale only contains 7 out of 12 possible notes. When we encounter one of the excluded notes that isn't part of the C major scale, we have to skip over a fret. The only pairs of notes that don't have an extra note between them are E and F, and B and C. When you play the C major scale on a single string, the pattern of skipping frets is more obvious.<br><br>Tip: If you feel like the ukulele is going to fall when you move your hand further down the fretboard, make sure that you are holding the ukulele body steady with your right arm.
+In traditional music notation, music is divided into *measures*. Each measure lasts a specific length of time and is an important part of the rhythm. At the beginning of the composition, the *Time signature* tells you two pieces of information:
+
+- The top number of the time signature indicates how many beats fit into a measure.
+- The bottom number of the time signature indicates which type of note is equivalent to a beat.
+
+For example, *4/4* time (also known as "common time") means that there are 4 beats in a measure, and that a beat is a quarter (4th) note. The next most frequently-used time signature is *3/4*, which means that there are 3 beats in a measure, but that a beat is still a quarter note. 
+
+The style of each note indicates its duration. At the top right of each exercise you can find all of the note types that are in the exercise and their duration.

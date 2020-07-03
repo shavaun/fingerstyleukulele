@@ -1,14 +1,14 @@
 ---
 title:  "#6"
-long_title: "#6 - Eighth Notes"
+long_title: "#6 - The Difference Between Strings"
 author: shavaun
-start_tempo: 40
+start_tempo: 60
 peak_tempo: 100
 score: exercise6.svg
 order: 6
-notes: {"eighth": ["eighth note", "1/2 beat"], "quarter":["quarter note","1 beat"]}
+notes: {"quarter":["quarter note","1 beat"], "half": ["half note", "2 beats"]}
 key: C
-difficulty: 1.3
+difficulty: 1.1
 ---
 
-*Eighth notes* last for one half of a quarter note. When there is a single eighth note, it is drawn like a quarter note but with a little wavy flag on its stem. When it is adjacent to other eighth notes, the stems are connected into a horizontal line.<br><br>They are fast, but it is important to maintain control and to not just pluck as fast as you can. Start this exercise at 40 BPM and do not increase the tempo until you have control of the rhythm.
+The fret for a particular note is going to be different depending on which string you play it on. For example, in this exercise we play a G note on the C string, 7th fret, and on the E string, 3rd fret. That's because a G note is 7 half steps higher in pitch from a C (starting on C, C#, D, D#, E, F, F#, G), but only 3 half steps up from an E (starting on E, F, F#, G).
