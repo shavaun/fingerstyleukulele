@@ -10,9 +10,9 @@ order: 1
 
 ## Welcome!
 
-These exercises are designed to help you practice fingerstyle ukulele skills. Start at the first exercise and learn them in order, taking the time to master each one before moving onto the next.
+These exercises are designed to help you practice fingerstyle ukulele skills. Start at the first exercise and learn them in order. Take the time to master each one before moving onto the next.
 
-You do *not* need to know how to read traditional music notation, but the exercises are also provided in that format in addition to tablature. If you aren't familiar with tablature yet, check out [this page](tabs).
+With each exercise, the explanation covers any new rhythm, music theory concepts, and traditional notation features introduced by the exercise. If you aren't familiar with tablature yet, check out [this page](tabs).
 
 
 ## You will need:

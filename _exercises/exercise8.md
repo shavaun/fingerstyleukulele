@@ -1,6 +1,6 @@
 ---
 title:  "#8"
-long_title: "#8 - Eight Notes"
+long_title: "#8 - Eighth Notes"
 author: shavaun
 start_tempo: 40
 peak_tempo: 100
